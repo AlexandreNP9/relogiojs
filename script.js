@@ -19,7 +19,7 @@ function showTime(){
     s = (s < 10) ? "0" + s : s;
 
     var time = h + ":" + m + ":" + s + " " + session;
-    document.getElementById("MyyClockDisplay").innerText = time;
+    document.getElementById("MyClockDisplay").innerText = time;
 
     setTimeout(showTime, 1000);
 
